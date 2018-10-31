@@ -38,6 +38,7 @@ CMD:halloween(playerid, params[])
             EditAttachedObject(playerid, 9);   
             SendClientMessage(playerid, 0x33CCFFFF, "INFO: {FFFFFF}You've just put on your Halloween mask! You can remove it by retyping the command.");
         }
+        default: SendClientMessage(playerid, 0xDE3838FF, "ERROR: {FFFFFF}Invalid option!");
     }
     return 1;
 }
